@@ -1896,7 +1896,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   clear: both;
 }
 
-.about-how-content::before,
+/*.about-how-content::before,
 .about-how-content::after {
   content: "";
   display: block;
@@ -1905,7 +1905,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
-}
+}*/
 
 .about-how-content::before {
   left: 0;
@@ -2861,6 +2861,39 @@ footer ul a:visited {
     background-color: #39b54a;
     color: white;
     border: none;
+}
+
+.about-how-content  img {
+    max-height: 30em;
+    max-width: 20em;
+    margin-bottom: 5em
+}
+
+
+.stap1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stap1 p{
+    max-width: 25em
+}
+
+.stap1 h3{
+    max-width: 25em
+}
+
+.stap2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stap2 p{
+    max-width: 25em
+}
+
+.stap1 h3{
+    max-width: 25em
 }
 
 /*# sourceMappingURL=main.css.map */
