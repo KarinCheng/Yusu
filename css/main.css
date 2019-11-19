@@ -2896,4 +2896,15 @@ footer ul a:visited {
     max-width: 25em
 }
 
+.price {
+    max-height: 15em
+}
+
+.container {
+    display: flex;
+}
+
+.icon {
+    max-height: 3.5em;
+}
 /*# sourceMappingURL=main.css.map */
